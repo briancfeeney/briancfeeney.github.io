@@ -1,0 +1,49 @@
+/**
+ * Personal styles
+ */
+
+body {
+	background: $gray;
+}
+
+main {
+	background: white;
+}
+
+p {
+	font-family: serif;
+	font-size: 1.2em;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	max-width: 40em;
+	margin: 0 auto;
+}
+
+article {
+	padding: 1em;
+	margin: 1em 0;
+	border-bottom: 1px solid $gray;
+	&:last-child {
+		border: none;
+	}
+	.note-date {
+		text-transform: uppercase;
+		font-size: .8em;
+		margin-bottom: .5em;
+		display: inline-block;
+	}
+}
+
+a.link {
+	color: lighten(black, 80%);
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}

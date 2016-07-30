@@ -2,18 +2,16 @@
 layout: default
 ---
 
-<div class="home">
-
-  <ul class="post-list">
+  <div class="notes">
     {% for post in site.posts %}
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <article>
+        <a class="link" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="note-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         </a>
         <div class="post-content" itemprop="articleBody">
           {{ post.content }}
         </div>
-      </li>
+      </article>
     {% endfor %}
   </ul>
 
