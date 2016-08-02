@@ -3,15 +3,22 @@
  */
 
  @mixin Anton {
- 	font-family: 'Anton', sans-serif;
+ 	font-family: 'Martel Sans', sans-serif;
  }
 
+$blue: #678EA2;
+
+
 body {
-	background: $gray;
+	font-family: georgia, serif;
 }
 
 main {
 	background: white;
+}
+
+h1 {
+	font-weight: bold;
 }
 
 p {
@@ -25,37 +32,40 @@ div {
 
 .container {
 	width: 100%;
-	max-width: 40em;
+	max-width: 43em;
 	margin: 0 auto;
 }
 
 article {
 	padding: 1em;
-	margin: 1em 0;
-	border-bottom: 1px solid $gray;
+	margin: 1em 0 2em;
 	&:last-child {
 		border: none;
 	}
 	.note-date {
 		@include Anton;
-		font-size: 1em;
-		letter-spacing: .06em;
-		margin-bottom: .5em;
+		font-size: .7em;
+		margin-bottom: 1em;
 		display: inline-block;
-		color: #678EA2;
+		color: $blue;
+	}
+	a {
+		color: $blue;
+	}
+	blockquote {
+		margin: 1.5em 0;
 	}
 }
 
-a.link {
-	color: lighten(black, 80%);
+a {
+	color: $blue;
 	text-decoration: none;
+	&:visited {
+		color: $blue;
+	}
 	&:hover {
 		text-decoration: none;
 	}
 }
 
 // Header
-
-.site-header {
-	border-bottom: 1px solid #000;
-}

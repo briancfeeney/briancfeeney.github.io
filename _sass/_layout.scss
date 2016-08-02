@@ -1,23 +1,41 @@
 /**
  * Site header
  */
+
+ @mixin sanserif {
+    font-family: 'Martel Sans', sans-serif;
+ }
+
+ body {
+    font-size: 18px;
+ }
+
+ main {
+    min-height: 100vh;
+ }
+
 .site-header {
-    @include Anton;
+    @include sanserif;
     // Positioning context for the mobile navigation icon
     position: relative;
+    .container {
+        border-bottom: 1px solid black;
+    }
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
+    font-size: 100px;
+    line-height: 120px;
+    text-transform: uppercase;
+    display: block;
+    margin: 1em auto 0;
+    color: #000;
+    text-align: center;
     &:visited {
-        color: $grey-color-dark;
+        color: #000;
+    }
+    &:hover {
+        text-decoration: none;
     }
 }
 
@@ -95,8 +113,57 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    min-height: 110vh;
+    background-image: url(/assets/portrait_by-Williams.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    .foot1, .foot2, .foot3, .foot4, .foot5 {
+        display: block;
+        height: 40px;
+        position: absolute;
+        margin: 0;
+        width: 100%;
+    }
+    .foot1 {
+        background: rgba(255,255,255,.2);
+        bottom: 160px;
+    }
+    .foot2 {
+        background: rgba(255,255,255,.4);
+        bottom: 120px;
+    }
+    .foot3 {
+        background: rgba(255,255,255,.6);
+        bottom: 80px;
+    }
+    .foot4 {
+        background: rgba(255,255,255,.8);
+        bottom: 40px;
+    }
+    .foot5 {
+        background: #fff;
+        bottom: 0;
+    }
+    .footer-links {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 210px;
+        a {
+            color: #fff;
+            display: inline-block;
+            margin: 0 1em;
+            &:visited {
+                color: #fff;
+            }
+        }
+    }
 }
 
 .footer-heading {
