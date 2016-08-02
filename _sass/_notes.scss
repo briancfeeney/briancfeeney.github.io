@@ -2,6 +2,10 @@
  * Personal styles
  */
 
+ @mixin Anton {
+ 	font-family: 'Anton', sans-serif;
+ }
+
 body {
 	background: $gray;
 }
@@ -33,7 +37,7 @@ article {
 		border: none;
 	}
 	.note-date {
-		text-transform: uppercase;
+		@include Anton;
 		font-size: .8em;
 		margin-bottom: .5em;
 		display: inline-block;
