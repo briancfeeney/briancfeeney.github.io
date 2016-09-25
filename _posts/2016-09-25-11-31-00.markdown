@@ -8,4 +8,4 @@ This quote from Obama is beautiful.
 
 > “And here in the United States, hopefully, what we’re building are not just pyramids, are not icons to one pharaoh. What we’re building is a culture and a way of living together that we can look back on and say, [This] was good, was inclusive, was kind, was innovative, was able to fulfill the dreams of as many people as possible.”
 
-From the recent Vanity Fair article [Barack Obama and Doris Kearns Goodwin: The Ultimate Exit Interview][http://www.vanityfair.com/news/2016/09/barack-obama-doris-kearns-goodwin-interview].
+From the recent Vanity Fair article [Barack Obama and Doris Kearns Goodwin: The Ultimate Exit Interview](http://www.vanityfair.com/news/2016/09/barack-obama-doris-kearns-goodwin-interview).
