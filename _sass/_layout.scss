@@ -3,11 +3,16 @@
  */
 
  @mixin sanserif {
-    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
+ }
+
+ @mixin serif {
+    font-family: 'Crimson Text', serif;
  }
 
  body {
     font-size: 18px;
+    @include serif;
  }
 
  main {
@@ -18,24 +23,50 @@
     @include sanserif;
     // Positioning context for the mobile navigation icon
     position: relative;
+    padding: 20px 20px 8px;
+    margin-bottom: 40px;
+    box-shadow: 0px 3px 22px rgba(0, 0, 0, 0.3);
     .container {
         border-bottom: 1px solid black;
     }
+    a, a:visited {
+        color: black;
+    }
+}
+
+.myphoto {
+    background-image: url(/assets/portrait_by-Williams.png);
+    height: 80px;
+    width: 80px;
+    margin-bottom: 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .site-title {
-    font-size: 100px;
-    line-height: 120px;
-    text-transform: uppercase;
-    display: block;
-    margin: 1em auto 0;
+    font-size: 64px;
+    display: inline-block;
+    margin: -64px 0 0 16px;
+    vertical-align: middle;
+    font-weight: 800;
     color: #000;
-    text-align: center;
     &:visited {
         color: #000;
     }
     &:hover {
         text-decoration: none;
+    }
+}
+
+.bfus-link {
+    display: none;
+    @media (min-width: 500px) {
+        display: inline-block;
+        float: right;
+        margin-top: 25px;
+        margin-right: 25px;
     }
 }
 

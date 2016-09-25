@@ -112,9 +112,9 @@ a {
 blockquote {
     color: #000;
     margin: 1.5em 0;
-    border-left: 4px solid #D1DCE2;
-    padding-left: $spacing-unit / 2;
-    font-size: 16px;
+    /* border-left: 4px solid #D1DCE2; */
+    padding-left: $spacing-unit;
+    font-size: 1em;
     font-style: italic;
 
     > :last-child {
