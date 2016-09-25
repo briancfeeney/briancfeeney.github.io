@@ -1,9 +1,7 @@
 ---
 title: 2016-09-23-12-42-27
 date: 2016-09-23 16:35:00 Z
-tags:
-- Apple
-- Watch
+tags: Apple, Watch
 ---
 
 September 13, 2015, I pick up my Apple Watch at the SoHo Apple store. September 13, 2016, Watch OS3 is released. I like the coincidence that my experience with the first version of the watch was an exact year. There's nothing important about this, nor any big take away. It just feels right.
