@@ -1,9 +1,9 @@
 ---
+date: 2016-09-25 11:29:39 Z
 layout: post
-date: 2016-09-25 11:29:39
-title: 
-tags:
+tags: 
 ---
+
 This quote from Obama is beautiful.
 
 > “And here in the United States, hopefully, what we’re building are not just pyramids, are not icons to one pharaoh. What we’re building is a culture and a way of living together that we can look back on and say, [This] was good, was inclusive, was kind, was innovative, was able to fulfill the dreams of as many people as possible.”
