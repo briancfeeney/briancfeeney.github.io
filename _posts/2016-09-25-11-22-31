@@ -1,0 +1,11 @@
+---
+layout: post
+date: 2016-09-25 11:11:12
+title: 
+tags: notes, jekyll, cms
+---
+I realized the other day that the note/journaling/blogging app I've designed could very much work as a GUI on top of Jekyll. After playing around with [Site Leaf](https://www.siteleaf.com/) for a couple days, I've learned it exists as a separate interface for my already existing blog. After some digging around, I found [Jekyll-admin](https://jekyll.github.io/jekyll-admin/), an open sourced version of the same thing, though not nearly as beautiful and well designed as Site Leaf (by Oak, a pretty great company). I can't read Ruby, unfortunately, so I don't yet have the skills to do this myself, but I know enough to be sure this idea is viable and probably not even that complicated.
+
+Here's how my design works with Jekyll. All new posts are *drafts* by default, and therefore unpublished. The interface shows all posts in a stream, essentially blending the backend and front-end elements of Jykyll. New posts are added in a WYSIWYG on the right. If you wanted to *publish* any of the notes, you click a button, add any front matter data you want, and hit publish. What *was* just a note is now *blog post*, and with very little effort. 
+
+I really want this to exist. It's something I've been thinking about for a long, long while.
