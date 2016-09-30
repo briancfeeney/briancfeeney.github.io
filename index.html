@@ -2,22 +2,22 @@
 layout: default
 ---
 
-  <div class="notes">
-    {% for post in paginator.posts %}
-    {% if post.photoblog != null %}
-    {% else %}
+<div>
+  {% for post in paginator.posts %}
+  {% if post.photoblog != null %}
+  {% else %}
 
-      <article>
-        <a class="link" href="{{ post.url | prepend: site.baseurl }}">
-          <span class="note-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </a>
-        <div class="post-content" itemprop="articleBody">
-          {{ post.content }}
-        </div>
-      </article>
-    {% endif %}
-    {% endfor %}
-  </ul>
+    <article>
+      <a class="link" href="{{ post.url | prepend: site.baseurl }}">
+        <span class="note-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </a>
+      <div class="post-content" itemprop="articleBody">
+        {{ post.content }}
+      </div>
+    </article>
+  {% endif %}
+  {% endfor %}
+</div>
 
   <!-- Pagination links -->
 <div class="pagination">
