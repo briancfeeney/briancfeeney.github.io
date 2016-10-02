@@ -25,7 +25,7 @@
     position: relative;
     padding: 1.25em 1.25em .5em;
     margin-bottom: 40px;
-    box-shadow: 0px 3px 22px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0px 3px 22px rgba(0, 0, 0, 0.3); */
     .container {
         border-bottom: 1px solid black;
     }
@@ -153,7 +153,7 @@
         float: left;
     }
     @media (max-width: 500px) {
-        box-shadow: 0px -1px 22px rgba(0, 0, 0, 0.3);
+        /* box-shadow: 0px -1px 22px rgba(0, 0, 0, 0.3); */
     }
 }
 
