@@ -23,7 +23,7 @@
     @include sanserif;
     // Positioning context for the mobile navigation icon
     position: relative;
-    padding: 1.25em 1.25em .5em;
+    padding: 2em 2em .5em;
     margin-bottom: 2em;
     /* box-shadow: 0px 3px 22px rgba(0, 0, 0, 0.3); */
     .container {
@@ -35,6 +35,7 @@
     @media (min-width: 600px) {
         font-size: .5em;
         margin-bottom: 12em;
+        padding: 4em 4em .5em;
     }
 }
 
@@ -52,7 +53,7 @@
         position: absolute;
         left: 50%;
         margin-left: -2.5em;
-        top: 2em;
+        top: 4.5em;
     }
 }
 
@@ -82,7 +83,7 @@
     @media (min-width: 600px) {
         display: inline-block;
         float: right;
-        margin-top: 13px;
+        margin-top: 2.25em;
         margin-right: 25px;
     }
 }
@@ -170,199 +171,6 @@
     }
 }
 
-/**
- * Site footer
- */
-.site-footer {
-    padding: $spacing-unit 0;
+footer {
     display: none;
-    /* min-height: 110vh; */
-    /* background-image: url(/assets/portrait_by-Williams.png); */
-    background-size: cover;
-    background-position: 50% 50%;
-    background-attachment: fixed;
-    position: relative;
-    text-align: center;
-    .foot1, .foot2, .foot3, .foot4, .foot5 {
-        display: block;
-        height: 40px;
-        position: absolute;
-        margin: 0;
-        width: 100%;
-    }
-    .foot1 {
-        background: rgba(255,255,255,.2);
-        bottom: 160px;
-    }
-    .foot2 {
-        background: rgba(255,255,255,.4);
-        bottom: 120px;
-    }
-    .foot3 {
-        background: rgba(255,255,255,.6);
-        bottom: 80px;
-    }
-    .foot4 {
-        background: rgba(255,255,255,.8);
-        bottom: 40px;
-    }
-    .foot5 {
-        background: #fff;
-        bottom: 0;
-    }
-    .footer-links {
-        display: block;
-        text-align: center;
-        width: 100%;
-        margin: 0 auto;
-        /* position: absolute;
-        bottom: 210px; */
-        a {
-            color: #fff;
-            display: inline-block;
-            margin: 0 1em;
-            &:visited {
-                color: #fff;
-            }
-        }
-    }
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
-
-/**
- * Page content
- */
-.page-content {
-    padding: $spacing-unit 0;
-}
-
-.page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
 }
