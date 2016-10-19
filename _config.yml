@@ -10,9 +10,7 @@ collections:
     output: true
 name: Brian Feeney
 email: bcfeeney@gmail.com
-description: 'Just a blog
-
-'
+description: 'Just a blog'
 baseurl: ''
 url: http://blog.brianfeeney.us
 twitter_username: bfeeney
