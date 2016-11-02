@@ -2,9 +2,6 @@
  * Personal styles
  */
 
- @mixin Anton {
- 	font-family: 'Martel Sans', sans-serif;
- }
 
 $blue: #678EA2;
 
@@ -46,11 +43,11 @@ article {
 		border: none;
 	}
 	.note-date {
-		@include Anton;
 		font-size: .7em;
 		margin-bottom: 1em;
 		display: inline-block;
 		color: $blue;
+		@include sansserif;
 	}
 	a {
 		color: $blue;
