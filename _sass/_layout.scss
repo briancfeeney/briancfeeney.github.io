@@ -162,8 +162,9 @@ div {
 // Body
 
 article {
-    padding: 1em 0;
+    padding: 1em 0 3em;
     margin: 1em 0 2em;
+    border-bottom: 1px solid black;
     &:last-child {
         border: none;
     }
