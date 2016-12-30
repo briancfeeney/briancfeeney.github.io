@@ -1,8 +1,8 @@
 ---
+title: November_18__2016_at_0545am
+date: 2016-11-18 05:45:00 Z
 layout: post
-date: November 18, 2016 at 05:45AM
-title:
-tags:
 ---
+
 [A reading list for resistance](http://kottke.org/16/11/a-reading-list-for-resistance) 
  
