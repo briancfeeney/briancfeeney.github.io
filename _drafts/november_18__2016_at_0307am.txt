@@ -1,8 +1,0 @@
----
-title: November_18__2016_at_0307am
-date: 2016-11-18 03:07:00 Z
-layout: post
----
-
-[Today’s social networks are broken](http://www.manton.org/2016/11/todays-social-networks-are-broken.html) 
- 
