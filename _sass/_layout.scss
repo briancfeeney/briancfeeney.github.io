@@ -198,3 +198,32 @@ footer {
         font-weight: 100;
     }
 }
+
+
+/* ----- Quotes ----- */
+
+.quotes {
+    h3 {
+        @include sanserif;
+        font-size: 1rem;
+    }
+}
+
+
+/* ----- CV ----- */
+
+.CV {
+    .date {
+        @include sanserif;
+        font-size: 1rem;
+    }
+}
+
+
+/* ----- Portfolio ----- */
+
+#cards {
+    article {
+        border-bottom: none;
+    }
+}
