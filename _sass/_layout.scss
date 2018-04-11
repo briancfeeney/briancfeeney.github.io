@@ -1,11 +1,13 @@
  @mixin sanserif {
-    font-family: "news-gothic-std",sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
  }
 
  @mixin serif {
-    font-family: Georgia, serif;
+    font-family: 'IBM Plex Serif', serif;
+    font-style: normal;
+    font-weight: 400;
  }
 
  @mixin display {
@@ -14,11 +16,14 @@
     font-weight: 700;
  }
 
+
  $blue: #678EA2;
  $black: #000;
+ $white: #fff;
 
  $small: 600px;
  $medium: 1000px;
+
 
  body {
     font-size: 18px;
@@ -33,6 +38,10 @@
     font-weight: 800;
  }
 
+ h4 {
+    @include sanserif;
+ }
+
  p a {
     color: black;
     text-decoration: underline;
@@ -40,142 +49,68 @@
         color: black;
     }
     &:hover {
-        background-color: rgba($black, .15);
+        background-color: rgba($black, .1);
     }
 }
 
 p {
-    font-family: serif;
-    font-size: 1.1em;
-    @media (min-width: 600px) {
-        font-size: 1.2em;
-    }
+    @include serif;
+    line-height: 1.5em;
 }
 
 div {
     box-sizing: border-box;
 }
 
+hr {
+    border: none;
+    border-bottom: 1px solid rgba($black, .1);
+    margin: 2.75rem 0;
+
+}
+
 .container {
     width: 100%;
-    max-width: 34em;
-    margin: 0;
-    padding: 0 20px;
-    @media (min-width: $small) {
-        padding: 0 2em;
-    }
-    @media (min-width: $medium) {
-        max-width: 45em;
-    }
+    max-width: 30em;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
  // Header
 
 .site-header {
     @include sanserif;
-    // Positioning context for the mobile navigation icon
-    position: relative;
-    padding: 1em;
-    margin-bottom: 2em;
-    border-bottom: 1px solid black;
-    /* box-shadow: 0px 3px 22px rgba(0, 0, 0, 0.3); */
-    .container {
-        border-bottom: 1px solid black;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    a {
+        margin-right: 1rem;
+        font-weight: 100;
+        color: $black;
+        &:last-child {
+            margin: 0;
+        }
     }
-    a, a:visited {
-        color: black;
-    }
-    @media (min-width: $small) {
-        padding: 1em 2em;
-    }
-}
-
-.heading {
-    font-size: 2.35em;
-    display: inline-block;
-    vertical-align: middle;
-    color: #000;
-    @include display;
-    &:visited {
-        color: #000;
-    }
-    &:hover {
-        text-decoration: none;
-    }
-    @media (min-width: $small) {
-        margin-top: 0;
-        font-size: 3.5em;
-    }
-    @media (min-width: $medium) {
-        font-size: 5.5em;
+    .heading {
+        font-weight: 700;
     }
 }
 
 
-.site-title {
-    font-size: 6em;
-    display: inline-block;
-    vertical-align: middle;
-    color: #000;
-    @include display;
-    &:visited {
-        color: #000;
-    }
-    &:hover {
-        text-decoration: none;
-    }
-    @media (min-width: $small) {
-        margin-top: 0;
-    }
-}
 
-.aboutLink {
-    float: right;
-    font-size: 1.5em;
-    transform: rotate(90deg);
-    margin: .5em;
-    &:hover {
-        text-decoration: none;
-        color: $blue !important;
-    }
-    @media (min-width: $small) {
-        font-size: 2em;
-    }
-    @media (min-width: $medium) {
-        margin: 1.25em;
-    }
-}
-
-.bfus-link {
-    font-size: 16px;
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    @media (min-width: 600px) {
-        display: inline-block;
-        float: right;
-        margin-top: 2.25em;
-        margin-right: 25px;
-    }
-}
 
 // Body
 
 article {
-    padding: 1em 0 3em;
-    margin: 1em 0 2em;
-    border-bottom: 1px solid black;
-    &:last-child {
-        border: none;
-    }
+    margin-bottom: 2.75rem;
+    padding-bottom: 2.75rem;
+    border-bottom: 1px solid rgba($black, .1);
+    @include serif;
     .note-date {
-        font-size: .85em;
-        margin-bottom: 1em;
-        display: inline-block;
         @include sanserif;
-        &:hover {
-            color: $blue;
-        }
+        display: block;
+        font-size: .9rem;
+        margin-bottom: .9rem;
     }
     a {
         color: $black;
@@ -187,11 +122,17 @@ article {
         }
     }
     blockquote {
-        margin: 1.5em 0;
+        padding-right: 0;
+        p {
+            font-style: italic;
+            font-weight: 300;
+            line-height: 1.8rem;
+        }
     }
-    @media (min-width: $medium) {
-        font-size: 1.2em;
-    }
+}
+
+article.page {
+    border-bottom: none;
 }
 
 .pagination {
@@ -200,9 +141,9 @@ article {
     @include sanserif;
     a {
         color: $black;
-        font-size: 1.5em;
+        font-size: 1.25em;
+        font-weight: 300;
         &:hover {
-            color: $blue;
             text-decoration: none;
         }
     }
@@ -213,66 +154,13 @@ article {
         float: left;
         transform: rotate(180deg);
     }
-    @media (min-width: $small) {
-        padding: 1.5em 0 6em;
-    }
-    @media (min-width: $medium) {
-        a {
-            font-size: 2em;
-        }
-    }
 }
 
 footer {
-    border-top: 1px solid $black;
-    .container {
-        width: 100%;
-        max-width: 100%;
-    }
-    section {
-        padding: 1em 0;
-        border-bottom: 1px solid $black;
-        &:last-child {
-            border: none;
-        }
-        .heading {
-            &:hover {
-                color: $blue;
-                span {
-                    color: $black;
-                }
-            }
-            span {
-                font-size: 1.25rem;
-                top: -.25em;
-                position: relative;
-                @media (min-width: $small) {
-                    font-size: 1.875rem;
-                    top: -.35em;
-                }
-                @media (min-width: $medium) {
-                    font-size: 2.5rem;
-                    top: -.45em;
-                }
-            }
-        }
-    }
-    #about {
-        padding: 2em 0;
-        .myname {
-            margin-bottom: .25em;
-            @include display;
-            font-size: 1.25em;
-        }
-        p {
-            font-size: 1rem;
-            padding-left: 4.5rem;
-            max-width: 35em;
-        }
-    }
+    margin-top: 5rem;
     .sociallinks {
-        padding-left: 4.5rem;
-        margin: 1.5em 0 0;
+        text-align: center;
+        margin-bottom: 4rem;
         a {
             margin-right: 1.25em;
             &:hover {
@@ -283,6 +171,9 @@ footer {
                     }
                 }
             }
+            &:last-child {
+                margin-right: 0;
+            }
             svg {
                 height: 1em;
                 path {
@@ -290,26 +181,52 @@ footer {
                 }
             }
         }
-        @media (min-width: $small) {
-            padding-left: 6.6rem;
-        }
+    }
+    .myphoto {
+        max-width: 15rem;
+        margin: 0 auto;
     }
 }
 
 
-.myphoto {
-    background-image: url(/assets/portrait_by-Williams.png);
-    height: 3em;
-    width: 3em;
-    margin-bottom: 0;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    display: inline-block;
-    float: left;
-    margin: 0 1em 1em 0;
-    @media (min-width: $small) {
-        height: 5em;
-        width: 5em;
+.aboutLinks {
+    margin-top: 10rem;
+    text-align: center;
+    a {
+        display: block;
+        @include sanserif;
+        font-weight: 100;
     }
 }
+
+
+/* ----- Quotes ----- */
+
+.quotes {
+    h3 {
+        @include sanserif;
+        font-size: 1rem;
+    }
+}
+
+
+/* ----- CV ----- */
+
+.CV {
+    .date {
+        @include sanserif;
+        font-size: 1rem;
+    }
+}
+
+
+/* ----- Portfolio ----- */
+
+#cards {
+    article {
+        border-bottom: none;
+    }
+}
+
+
+
