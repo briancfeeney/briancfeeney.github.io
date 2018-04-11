@@ -92,73 +92,73 @@ layout: page
 		<p>Methinks we have hugely mistaken this matter of Life and Death. Methinks that what they call my shadow here on earth is my true substance. Methinks that in looking at things spiritual, we are too much like oysters observing the sun through the water, and thinking that thick water the thinnest of air. Methinks my body is but the lees of my better being. In fact take my body who will, take it I say, it is not me.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/whitman-onward-and-outward">Walt Whitman</a></h3>
+		<h3>Walt Whitman</h3>
 		<p>
 		All goes onward and outward . . . . and nothing collapses,<br>And to die is different from what any one supposed, and luckier.
 	</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/eckhart-one">Meister Eckhart</a></h3>
+		<h3>Meister Eckhart</h3>
 		<p>One to one, one from One, one in One and the One in one, eternally.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/emerson-devil">Ralph Waldo Emerson</a></h3>
+		<h3>Ralph Waldo Emerson</h3>
 		<p>I remember an answer which when quite young I was prompted to make a valued adviser who was wont to importune me with the dear old doctrines of the church. On my saying, What have I to do with the sacredness of traditions, if I live wholly from within? my friend suggested, &mdash; “But these impulses may be from below, not from above.” I replied, ‘They do not seem to me to be such; but if I am the devil’s child, I will live then from the devil.’</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/whitman-uncut-hair-of-graves">Walt Whitman</a></h3>
+		<h3>Walt Whitman</a></h3>
 		<p>And now it seems to me the beautiful uncut hair of graves.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/thoreau-farmers-fields">Henry David Thoreau</a></h3>
+		<h3>Henry David Thoreau</h3>
 		<p>Look at [the farmers’] fields, and imagine what they might write, if ever they should put pen to paper. Or what they have not written on the face of the earth already, clearing, and burning, and subsoiling, in and in, and out and out, and over and over, again and again, erasing what they had already written for want of parchment.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/blyth-love-of-truth">R. H. Blyth</a></h3>
+		<h3>R. H. Blyth</h3>
 		<p>The whole is the whole, but the half is infinite. For this reason Lessing said that if there were held out to him in one hand truth, and in the other the love of truth, and he might choose freely between the two, he would prefer the latter to the former.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/krishnamurti-world-is-us">J. Krishnamurti</a></h3>
+		<h3>J. Krishnamurti</h3>
 		<p>I think one has to understand, not as a theory, not as a speculative, entertaining concept, but rather as an actual fact &mdash; that we are the world and the world is us. The world is each one of us; to feel that, to be really committed to it and to nothing else, brings about a feeling of great responsibility and an action that must not be fragmentary, but whole.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/m.-duthuit-bamboo">M. Duthuit</a></h3>
+		<h3>M. Duthuit</h3>
 		<p>Draw bamboos for ten years, become a bamboo, then forget all about bamboos when you are drawing.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/life-service-lethaby">W.R. Lethaby</a></h3>
+		<h3>W.R. Lethaby</h3>
 		<p>Life is best thought of as service</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/einstein-problems">Albert Einstein</a></h3>
+		<h3>Albert Einstein</h3>
 		<p>No worthy problem is ever solved within the plane of its original conception.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/eno-shooting-arrows">Brian Eno</a></h3>
+		<h3>Brian Eno</h3>
 		<p>Instead of shooting arrows at someone else's target, which I've never been very good at, I make my own target around wherever my arrow happens to have landed. you shoot your arrow and then you paint your bulls eye around it, and therefore you have hit the target dead centre.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/tilopa-settle-itself">Tilopa</a></h3>
+		<h3>Tilopa</h3>
 		<p>No thought, no reflection, no analysis, no cultivation, no intention; let it settle itself.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/watts-real-religion">Alan Watts</a></h3>
+		<h3>Alan Watts</h3>
 		<p>Real religion is the transformation of anxiety into laughter.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/suzuki-do-something-new">Shunryu Suzuki</a></h3>
+		<h3>Shunryu Suzuki</h3>
 		<p>And we should forget, day by day, what we have done; this is true non-attachment. And we should do something new. To do something new, of course we must know our past, and this is alright. But we should not keep holding onto anything we have done; we should only reflect on it. And we must have some idea of what we should do in the future. But the future is the future, the past is the past; now we should work on something new.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/soren-enigma-to-oneself">Soren Kierkegaard</a></h3>
+		<h3>Soren Kierkegaard</h3>
 		<p>One should be an enigma not just to others but to oneself too. I study myself. When I’m tired of that I light a cigar to pass the time, and think: God only knows what the good Lord really meant with me, or what He meant to make of me.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/nietzsche-to-love-it">Friedrich Nietzsche</a></h3>
+		<h3>Friedrich Nietzsche</h3>
 		<p>My formula for greatness in a human being is <em>amor fati</em>: that one wants nothing to be other than it is, not in the future, not in the past, not in all eternity. Not merely to endure that which happens of necessity, still less to dissemble it &mdash; all idealism is untruthfulness in the face of necessity &mdash; but to <em>love</em> it . . .</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/saraha-measuring-darkness">Saraha</a></h3>
+		<h3>Saraha</h3>
 		<p>If [the truth] is already manifest, what’s the use of meditation? And if it is hidden, one is just measuring darkness.</p>
 	</article>
 	<article>

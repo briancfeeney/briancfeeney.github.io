@@ -21,7 +21,7 @@ I’ve designed, and redesigned, and undesigned, and redesigned this site again 
 <div class="aboutLinks">
 	<h4>Other Links</h4>
 	<a href="/quotes">Collected Quotes</a>
-	<a href="/">Portfolio</a>
+	<a href="/portfolio">Portfolio</a>
 	<a href="/CV">Curriculum Vitae</a>
 	<!-- <a href="/">Articles</a> -->
 </div>
