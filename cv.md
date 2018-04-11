@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae
-permalink: "/cv/"
+permalink: "/CV/"
 layout: page
 ---
 
