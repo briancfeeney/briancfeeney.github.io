@@ -4,6 +4,12 @@ permalink: "/portfolio/"
 layout: page
 ---
 
+<style>
+	.container {
+		max-width: none !important;
+	}
+</style>
+
 <div class="">
 
 	<!--
@@ -18,7 +24,8 @@ layout: page
 	</div>
 	-->
 
-	<h1>Portfolio</h1>
+	<h4 style="margin: 0 auto 5em; text-align: center;">Portfolio</h4>
+
 	<div id="cards">
 
 		<article class="print card"><img class="lazy" data-original="/assets/portfolio/507-home.png" src="/assets/portfolio/507-home.png"></article>
@@ -83,7 +90,7 @@ layout: page
 		  $("#cards").fadeIn(1200);
 		});
 
-		$(function() {
+		$(window).load(function() {
 		    var parent = $("#cards");
 		    var articles = parent.children();
 		    while (articles.length) {
@@ -97,12 +104,12 @@ layout: page
 			refresh: 200,
 		};
 
-		$(function(){
+		$(window).load(function(){
 			$('#cards').waterfall(setting);
 		})
 
 		// Lazy loading
-		$(function() {
+		$(window).load(function() {
 		    $("img.lazy").lazyload({
 			    effect : "fadeIn"
 			});
