@@ -12,15 +12,13 @@ layout: page
 	<p>Senior Product Designer</p>
 </article>
 
-<article>
-	<p class="date">January 2017 - April 2017</p>
-	<h1>Dow Jones</h1>
-	<p>Digital Product Designer working on Wall Street Journal projects</p>
-</article>
 
 <article>
-	<p class="date">July 2015 - January 2017</p>
+	<p class="date">July 2015 - April 2017</p>
 	<h1>Freelance Full-time</h1>
+	<h2>Dow Jones</h2>
+	<p>Front-End Designer working on Wall Street Journal projects</p>
+
 	<h2>The Barnes Foundation</h2>
 	<ul>
 		<li><p>Design and development of a microsite for their education department — <a href="http://barnesclasses.org/">Barnes Classes</a>. Built with Squarespace.</p></li>

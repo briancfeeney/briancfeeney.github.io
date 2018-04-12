@@ -162,51 +162,51 @@ layout: page
 		<p>If [the truth] is already manifest, what’s the use of meditation? And if it is hidden, one is just measuring darkness.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/foucault-beginning">Michel Foucault</a></h3>
+		<h3>Michel Foucault</h3>
 		<p>We are always in the position of beginning again.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/hui-neng-dirty-skeletons">Hui-neng</a></h3>
+		<h3>Hui-neng</h3>
 		<p>A living man who sits and does not lie down; A dead man who lies down and does not sit! After all these are just dirty skeletons.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/eliot-and-the-end">T.S. Eliot</a></h3>
+		<h3>T.S. Eliot</h3>
 		<p>And the end of all our exploring will be to arrive where we started and know the place for the first time.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/jesus-two-or-three">Jesus</a></h3>
+		<h3>Jesus</h3>
 		<p>Again, I tell you that if two of you on earth agree about anything you ask for, it will be done for you by my Father in heaven. For where two or three come together in my name, there am I with them.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/thoreau-highest-of-arts">Henry David Thoreau</a></h3>
+		<h3>Henry David Thoreau</h3>
 		<p>It is something to be able to paint a particular picture, or to carve a statue, and so to make a few objects beautiful; but it is far more glorious to carve and paint the very atmosphere and medium through which we look, which morally we can do. To affect the quality of the day, that is the highest of arts. Every man is tasked to make his life, even in its details, worthy of contemplation of his most elevated and critical hour.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/lingyuan-birds">Lingyuan</a></h3>
+		<h3>Lingyuan</h3>
 		<p>Birds fly away on seeing men of foreboding countenance, and gather after flying beyond the range of arrows. So it is with Master Yuan.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/aurelius-distraction">Marcus Aurelius</a></h3>
+		<h3>Marcus Aurelius</h3>
 		<p>Are you distracted by outward cares? Then allow yourself a space of quiet, wherein you can add to your knowledge of the Good and learn to curb your restlessness. Guard also against another kind of error: the folly of those who weary their days in much business, but lack any aim on which their whole effort, nay, their whole thought, is focused.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/po-chang-hungry-and-tired">Po-chang</a></h3>
+		<h3>Po-chang</h3>
 		<p>When hungry, eat; when tired, sleep.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/whitman-language">Walt Whitman</a></h3>
+		<h3>Walt Whitman</h3>
 		<p>Language, be it remember’d, is not an abstract construction of the learn’d, or of dictionary-makers, but is something arising out of the work, needs, ties, joys, affections, tastes, of long generations of humanity, and has its bases broad and low, close to the ground.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/traherne-sole-heirs">Thomas Traherne</a></h3>
+		<h3>Thomas Traherne</h3>
 		<p>You never enjoy the world aright, till the Sea itself floweth in your veins, till you are clothed with the heavens, and crowned with the stars: and perceive yourself to be the sole heir of the whole world, and more than so, because men are in it who are every one sole heirs as well as you.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/james-one-and-many">William James</a></h3>
+		<h3>William James</h3>
 		<p>The notion of the ‘one’ breeds foreigness and that of the ‘many’ intimacy.</p>
 	</article>
 	<article>
-		<h3><a href="http://brianfeeney.us/quotes/gaoan-model-for-the-people">Gaoan</a></h3>
+		<h3>Gaoan</h3>
 		<p>The great body of the leader has the community for its house: distinctions are made appropriately, disbursal is suited to the vessel, action is concerned with the principles of peace and well-being, gain and loss are related to the source of the teaching. How could it be easy to be a model for the people?</p>
 	</article>
 </div>
