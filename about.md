@@ -4,13 +4,13 @@ permalink: "/about/"
 layout: page
 ---
 
-I am a designer and developer in Brooklyn, Currently emplyed by the Wall Street Journal as a Senior Product Designer working on wsj.com. 
+I am a designer and front-end developer in Brooklyn, Currently employed by the Wall Street Journal as a Senior Product Designer working on wsj.com. 
 
 * * *
 
 Born in Indianapolis, Indiana, 1981. Grew up on the south side of Indy, an artsy kid who played a lot of soccer.  Got up to plenty of trouble, but never got caught. Graduate of Indiana University, 2003. Moved to NYC in 2007.
 
-Since 2010 or so, I’ve been working as either a designer or front-end web developer. You’re welcome to read my CV, if you’re interested in that kind of thing.  
+Since 2010 or so, I’ve been working as either a designer or front-end web developer. You’re welcome to read my <a href="/CV">CV</a>, if you’re interested in that kind of thing.  
 
 * * *
 
