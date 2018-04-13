@@ -4,11 +4,10 @@ permalink: "/quotes/"
 layout: page
 ---
 
-<article>
-	<i>Quotes I've collected over the years.</i>
-</article>
-
 <div class="quotes">
+	<article>
+		<h3>Jean-Paul Sartre</h3>
+		<p>I am the architect of my own self, my own character and destiny. It is no use whingeing about what I might have been, I am the things I have done and nothing more.</p>
 	<article>
 		<h3>Matsuo Basho</h3>
 		<p>
