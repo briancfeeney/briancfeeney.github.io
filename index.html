@@ -4,8 +4,7 @@ layout: default
 
 <div>
   {% for post in paginator.posts %}
-  {% if post.blog != null %}
-  {% else %}
+
 
     <article>
       <a class="link" href="{{ post.url | prepend: site.baseurl }}">
@@ -15,7 +14,7 @@ layout: default
         {{ post.content }}
       </div>
     </article>
-  {% endif %}
+
   {% endfor %}
 </div>
 
