@@ -5,8 +5,6 @@ layout: default
 <div>
   {% for post in paginator.posts %}
 
-<<<<<<< HEAD
-=======
     {% if post.categories contains 'musicreview' %}
       <article class="musicreview">
         <a class="link" href="{{ post.url | prepend: site.baseurl }}">
@@ -20,23 +18,30 @@ layout: default
         </div>
         <p class="reviewLink"><a href="https://itunes.apple.com/us/playlist/blogged/pl.u-geZDh5R8jk4">View on Apple Music playlist</a></p>
       </article>
+
+
+    {% elsif post.categories contains 'photos' %}
+      <article class="photo">
+        <a class="link" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="note-date">{{ post.date | date: "%b %-d, %Y %r" }}</span>
+        </a>
+        <div class="post-content" itemprop="articleBody">
+          {{ post.content }}
+        </div>
+      </article>
     {% else %}
->>>>>>> master
 
-    <article>
-      <a class="link" href="{{ post.url | prepend: site.baseurl }}">
-        <span class="note-date">{{ post.date | date: "%b %-d, %Y %r" }}</span>
-      </a>
-      <div class="post-content" itemprop="articleBody">
-        {{ post.content }}
-      </div>
-    </article>
+      <article>
+        <a class="link" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="note-date">{{ post.date | date: "%b %-d, %Y %r" }}</span>
+        </a>
+        <div class="post-content" itemprop="articleBody">
+          {{ post.content }}
+        </div>
+      </article>
 
-<<<<<<< HEAD
-=======
     {% endif %}
 
->>>>>>> master
   {% endfor %}
 </div>
 
