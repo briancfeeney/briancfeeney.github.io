@@ -1,0 +1,7 @@
+---
+layout: post
+date: July 17, 2018 at 08:45AM
+title:
+tags:
+---
+[Biased by Design](http://boxesandarrows.com/biased-by-design/)

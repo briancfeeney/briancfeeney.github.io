@@ -1,0 +1,7 @@
+---
+layout: post
+date: May 18, 2018 at 07:24PM
+title:
+tags:
+---
+[You Say Data, I Say System – Hacker Noon](https://hackernoon.com/you-say-data-i-say-system-54e84aa7a421)
