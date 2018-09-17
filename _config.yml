@@ -17,3 +17,4 @@ twitter_username: bfeeney
 github_username: briancfeeney
 paginate: 10
 markdown: kramdown
+future: false
